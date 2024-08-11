@@ -1,19 +1,19 @@
 /*color schemes*/
-user_pref("user.theme.dark.a", true); /*default dark mode*/
+user_pref("user.theme.dark.a", false); /*default dark mode*/
 user_pref("user.theme.light.a", true); /*default light mode*/
-user_pref("user.theme.dark.catppuccin", false);
+user_pref("user.theme.dark.catppuccin", true);
 user_pref("user.theme.dark.catppuccin-mocha", false); /*by Draff*/
 user_pref("user.theme.dark.gruvbox", false);
 user_pref("user.theme.light.gruvbox", false);
 user_pref("user.theme.dark.midnight", false);
 
 /*tabs*/
-user_pref("ultima.tabs.vertical", true);
+user_pref("ultima.tabs.vertical", false);
 user_pref("ultima.tabs.size.xs", false);
 user_pref("ultima.tabs.size.s", false);
 user_pref("ultima.tabs.size.l", true);
-user_pref("ultima.tabs.autohide", true);
-user_pref("ultima.tabs.closetabsbutton", false);
+user_pref("ultima.tabs.autohide", false);
+user_pref("ultima.tabs.closetabsbutton", true);
 user_pref("ultima.tabs.vertical.hide", false);
 user_pref("ultima.tabs.vertical.onlyprivate", false);
 user_pref("ultima.tabs.vertical.rightside", false);
@@ -25,12 +25,12 @@ user_pref("ultima.sidebar.hidden", false);
 user_pref("ultima.sidebar.longer", false);
 
 /*extension theme on-off*/
-user_pref("ultima.theme.extensions", true);
+user_pref("ultima.theme.extensions", false);
 
 /*url bar*/
 user_pref("ultima.urlbar.suggestions", true);
-user_pref("ultima.urlbar.centered", true);
-user_pref("ultima.urlbar.hidebuttons", false);
+user_pref("ultima.urlbar.centered", false);
+user_pref("ultima.urlbar.hidebuttons", true);
 user_pref("ultima.xstyle.urlbar", false);
 
 /*alternate styles*/
